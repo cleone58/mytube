@@ -19,7 +19,7 @@ class App extends Component {
         selectedVideo: null
       };
 
-      this.videoSearch('bitcoin');
+      this.videoSearch('kendrick lamar');
 
 
   }
