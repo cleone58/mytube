@@ -1,4 +1,10 @@
 
+body {
+   background: url(OLDSCHOOLTV.png) no-repeat;
+   background-size: 1400px;
+}
+
+
 .search-bar {
   margin: 20px;
   text-align: center;
@@ -10,15 +16,32 @@
   border-color: lightgrey;
 }
 
+.video-detail.col-md-8 {
+    margin-top: -1.7rem;
+    margin-left: 2rem;
+    width: 111rem;
+
+}
+
 .video-item img {
   max-width: 64px;
 }
 
 .video-detail .details {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+    margin-top: -28px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 92%;
+    margin-left: 8rem;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-top: 64.5rem;
+    display: inline-flex;
+    margin-left: -114rem;
+    height: 19rem;
 }
 
 .list-group-item {
